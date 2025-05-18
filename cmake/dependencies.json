@@ -1,0 +1,34 @@
+{
+  "libraries": [
+    {
+      "name": "vkb",
+      "url": "https://github.com/charles-lunarg/vk-bootstrap",
+      "branch": "main",
+      "sparse_paths": [
+        "src/*"
+      ]
+    },
+    {
+      "name": "vma",
+      "url": "https://github.com/GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator/",
+      "branch": "master",
+      "sparse_paths": [
+        "include/*",
+        "/CMakeLists.txt",
+        "!/src/*"
+      ]
+    },
+    {
+      "name": "glfw",
+      "url": "https://github.com/glfw/glfw",
+      "branch": "master",
+      "sparse_paths": [
+        "src",
+        "include",
+        "/CMakeLists.txt",
+        "/Cmake/*",
+        "deps"
+      ]
+    }
+  ]
+}
