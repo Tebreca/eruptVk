@@ -3,7 +3,7 @@ I made this as a 'headstart' with nice code and library functionality, such that
 
 
 ## TODO:
- -[] VMA
- -[] Renderpasses
-   -[] Pipelines
- -[] Finish this list
+ - [ ] VMA
+ - [ ] Renderpasses
+   - [ ] Pipelines
+ - [ ] Finish this list
